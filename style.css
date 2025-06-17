@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+header {
+  background-color: #a42c0b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+.section h2 {
+  color: #a42c0b;
+}
+.doctor {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  background: white;
+}
+.doctor-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a42c0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+footer {
+  background-color: #a42c0b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+iframe {
+  width: 100%;
+  border: none;
+  height: 300px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.contact-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 10px 0 0;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-btn.phone {
+  background-color: #00796B;
+}
+
+.contact-btn.whatsapp {
+  background-color: #25D366;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #abf9ef;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-float img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.call-float {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 1000;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #b5ddf7;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.call-float img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.whatsapp-float:hover{
+  transform: scale(1.1);
+  background-color: #00574B;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+.call-float:hover {
+  transform: scale(1.1);
+  background-color: #4268e6;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+.about-section {
+  background-color: #e0f2f1;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  display: flex;
+  align-items: center;
+  color: #004D40;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.about-section .icon {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-img {
+  flex: 1 1 300px;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.about-text {
+  flex: 2 1 400px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
